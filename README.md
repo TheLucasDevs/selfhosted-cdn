@@ -34,7 +34,7 @@ A modern, minimalistic self-hosted CDN web application to upload and serve media
 
 ## Tech Stack
 
-- Backend: (Specify your chosen backend, e.g. Node.js with Express / Python Flask / PHP)  
+- Backend: Node.js With Express
 - Frontend: HTML, CSS, JavaScript (minimal dependencies)  
 - No database required — metadata handled via file system
 
@@ -45,6 +45,6 @@ A modern, minimalistic self-hosted CDN web application to upload and serve media
 ### Prerequisites
 
 - Ubuntu server or any Linux environment  
-- Node.js / Python / PHP installed depending on the backend implementation  
+- Node.js / Python / PHP installed 
 - Web server (Nginx recommended for production)  
 - Domain name (optional, but recommended)
