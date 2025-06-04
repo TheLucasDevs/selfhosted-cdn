@@ -54,9 +54,9 @@ app.use(express.static('public'));
 
 app.post('/login', express.json(), async (req, res) => {
     const { username, password } = req.body;
-    const hashedPassword = await bcrypt.hash('MyCDN', 10);
+    const hashedPassword = await bcrypt.hash('--YOUR PASSWORD HERE--', 10);
     
-    if (username === 'Osama' && await bcrypt.compare(password, hashedPassword)) {
+    if (username === '--YOUR USERNAME HERE--' && await bcrypt.compare(password, hashedPassword)) {
         req.session.authenticated = true;
         res.json({ success: true });
     } else {
